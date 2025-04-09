@@ -177,6 +177,9 @@ footer{
 body{
     overflow:hidden;
 }
+.main{
+    overflow-x: hidden;
+}
 @keyframes anime {
     0%{
 opacity: 0;

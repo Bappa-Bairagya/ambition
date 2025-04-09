@@ -2,6 +2,6 @@ var loader = document.querySelector("#loader"); // Selects the element with id "
 var body=document.querySelector("body")
 setTimeout(function() {
     loader.style.top = "-110%";
-    body.style.overflow="scroll"
+    body.style.overflowY="scroll"
     // Moves the loader up by 100% (presumably out of view)
 }, 3000); // Executes after 2000 milliseconds (2 seconds)
